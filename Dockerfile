@@ -41,7 +41,7 @@ RUN mkdir -p /app/client/public/images /app/api/logs
 EXPOSE 3080
 # chatgpt:
 ENV PORT=3000
-ENV NEXTAUTH_URL=https://profound-inspiration.up.railway.app
+ENV NEXTAUTH_URL=librechat-production-e559.up.railway.app
 ENV NEXTAUTH_SECRET=56764fe43e0386539e076b0ffb8074e2
 ENV MONGO_URI=mongodb://mongo:swHpkDDMLDaVdYdumanPYnPSZFruHGUI@mongodb.railway.internal:27017
 ENV OPENAI_API_KEY=OPENAI_API_KEY
